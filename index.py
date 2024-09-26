@@ -113,7 +113,10 @@ print(mi_dict["puntos"]["points2"][1])
 # para ello, no debes 
 # cambiar la línea de código ya escrita, sino actualizar los valores mediante métodos de diccionarios.
 
-
+mi_dic = {"nombre": "Karen","apellido": "Jurgens","edad": 35,"ocupacion": "Periodista", "pais":"Colombia"}
+mi_dic["edad"] = 36
+mi_dic["ocupacion"] = ["editora"]
+print(mi_dic)
 #---------------------------------------------------------------------
 
 mi_tupla = (1, 2, 3, 2, 3, 1, 3, 2, 3, 3, 3, 1, 3, 2, 2, 1, 3, 2)
@@ -134,14 +137,22 @@ print(c)
 # Práctica Tuples 1
 # Utiliza un método de tuplas para contar la cantidad de veces que aparece el valor 2 en la siguiente tupla, y muestra el resultado (integer) en pantalla:
 
+mi_tupla = (1, 2, 3, 2, 3, 1, 3, 2)
+mi_tupla.count(2)
+print(mi_tupla.count(2))
 
 # Práctica Tuples 2
 # Convierte a lista la siguiente tupla, y almacénala en una variable llamada mi_lista.
 
 # mi_tupla = (1, 2, 3, 2, 3, 1, 3, 2)
-
+mi_lista = mi_tupla = (1, 2, 3, 2, 3, 1, 3, 2)
 
 # Práctica Tuples 3
 # Extrae los elementos de la siguiente tupla en cuatro variables: a, b, c, d
 
-# mi_tupla = (1, 2, 3, 
+mi_tupla = (1, 2, 3, 4)
+
+1 = "a"
+2 = "b"
+3 = "c"
+4 = "d"
